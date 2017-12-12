@@ -7,9 +7,10 @@
 		<h1>Guessing Game</h1>
 		<h2>by: Vincent F. Monacillo</h2>
 		<p><form method="GET"><p>
-		<h3>Result: </h3>><label for= "guess">Input Guess</label>
+		<label for= "guess">Input Guess</label>
 		<input type="text" name="guess" size="40" id="guess"/></p>
 		<input type="submit" name="submit"/>
+		<h3>Result: </h3>
 		</form>
 		</p>
 	</body>
