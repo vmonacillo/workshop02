@@ -28,10 +28,10 @@ if(! isset($_GET['guess'])){
 }else if ( ! is_numeric($_GET['guess'])) {
  echo("Your Guess is not a number");
  $_SESSION["counter"]++;
-}else if ($_GET['guess'] < 42) {
+}else if ($_GET['guess'] < 69) {
  echo("Your Guess is too low");
  $_SESSION["counter"]++;
-}else if ($_GET['guess'] > 42) {
+}else if ($_GET['guess'] > 69) {
  echo("Your Guess is too high");
  $_SESSION["counter"]++;
 } else{
